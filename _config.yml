@@ -1,0 +1,21 @@
+# Welcome to Jekyll!
+title: SEC Football Schedule
+year: 2017
+description: >
+  The best source for the SEC Football schedule on the web. 
+baseurl: ""
+url: "http://www.secschedule.com"
+
+# Build settings
+markdown: kramdown
+plugins_dir:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

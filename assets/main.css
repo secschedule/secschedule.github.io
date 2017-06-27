@@ -1,0 +1,92 @@
+body {
+    font-size: 18pt;
+}
+
+img { 
+    border: 0;
+}
+
+a, a:hover, a:active {
+    text-decoration: none;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.bg {
+    margin: 0 auto;
+    max-width:100%;
+    height: 500px;
+    background-size: 100% 100%;
+    overflow: auto;
+    border: 1px solid #f00;
+    background-image: url("/assets/back2.png");
+    color: #fff;
+    font-size: 14pt;
+}
+
+.well {
+    background: rgba(22, 105, 173, 0.2);
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.well a {
+    text-decoration: none;
+}
+
+.well a:hover {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-weight: bold;
+}
+
+.divisions {
+    padding-bottom: 10px;
+}
+
+.navbar-brand {
+    font-size: 24pt;
+}
+
+.schedule-main {
+    padding: 1em;
+}
+
+.schedule-aside {
+    font-size: 14pt !important;
+    margin: 20px;
+    background-image: url("/assets/back2.png");
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .hide-mobile {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
