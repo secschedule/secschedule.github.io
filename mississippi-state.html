@@ -1,17 +1,16 @@
 ---
 layout: page
-title: Alabama Crimson Tide
-shortTitle: Bama
-permalink: alabama-crimson-tide 
+title: Mississippi State Bulldogs
+shortTitle: The Bulldogs
+permalink: mississippi-state-bulldogs 
 comments: true
-keywords: alabama, crimson tide, roll tide
 ---
 
 <div class="container-fluid">
     <div class="row">
         {% include google-side-ad.html %}
         <div class="col-md-6 schedule-main">            
-            {% for schedule in site.data.alabama.schedule.opponent %}
+            {% for schedule in site.data.mississippi-state.schedule.opponent %}
             <div class="row">
                 <div class="col-md-5">
                     {% if schedule.location == "*" %}
@@ -26,7 +25,7 @@ keywords: alabama, crimson tide, roll tide
                 </div>
                 <div class="col-md-5 text-right">
                     {% if schedule.location == "*" %}
-                        <h2>{{ site.data.alabama.location }}</h2>
+                        <h2>{{ site.data.mississippi-state.location }}</h2>
                         <div class="time">{{ schedule.time | default: "TBA" }}
                             {% if schedule.station != "" %}
                                 &nbsp; &nbsp; <span class="network">{{ schedule.station }}</span>
@@ -57,15 +56,15 @@ keywords: alabama, crimson tide, roll tide
         </div>
         <div class="col-md-3">
             <aside class="well schedule-aside hide-mobile">
-               <h3 class="text-center">{{ site.data.alabama.name }}</h3>
-               <div class="text-center"><img src="{{ site.data.alabama.helmetUrl }}" alt="helmet"></div>
+               <h3 class="text-center">{{ site.data.mississippi-state.name }}</h3>
+               <div class="text-center"><img src="{{ site.data.mississippi-state.helmetUrl }}" alt="helmet"></div>
                <div class="margin-top-20">
-                <p>The {{ site.data.alabama.name }} is located in {{ site.data.alabama.location }}.</p>
-                <p>The {{ site.data.alabama.nickname }} plays their home games 
-                at {{ site.data.alabama.stadiumName }}.</p>
-                <p>The head coach is {{ site.data.alabama.headCoach }}.</p>
-                <p>If you ever attend a game at {{ site.data.alabama.stadiumName }} you may catch a glimpse of {{ site.data.alabama.mascot }}, the team's mascot.</p>
-                <h3 class="text-center"><i>{{ site.data.alabama.slogan }}</i></h3>
+                <p>The {{ site.data.mississippi-state.name }} is located in {{ site.data.mississippi-state.location }}.</p>
+                <p>The {{ site.data.mississippi-state.nickname }} plays their home games 
+                at {{ site.data.mississippi-state.stadiumName }}.</p>
+                <p>The head coach is {{ site.data.mississippi-state.headCoach }}.</p>
+                <p>If you ever attend a game at {{ site.data.mississippi-state.stadiumName }} you may catch a glimpse of {{ site.data.mississippi-state.mascot }}, the team's mascot.</p>
+                <h3 class="text-center"><i>{{ site.data.mississippi-state.slogan }}</i></h3>
                </div>
             </aside>
         </div>

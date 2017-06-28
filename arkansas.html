@@ -8,9 +8,7 @@ comments: true
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-3">
-            {% include google-side-ad.html %}
-        </div>
+        {% include google-side-ad.html %}
         <div class="col-md-6 schedule-main">            
             {% for schedule in site.data.arkansas.schedule.opponent %}
             <div class="row">
@@ -30,14 +28,14 @@ comments: true
                         <h2>{{ site.data.arkansas.location }}</h2>
                         <div class="time">{{ schedule.time | default: "TBA" }}
                             {% if schedule.station != "" %}
-                                &nbsp; &nbsp; {{ schedule.station }}
+                                &nbsp; &nbsp; <span class="network">{{ schedule.station }}</span>
                             {% endif %}
                             </div>
                     {% else %}
                         <h2>{{ schedule.location }}</h2>
                         <div class="time">{{ schedule.time | default: "TBA" }}
                             {% if schedule.station != "" %}
-                                &nbsp; &nbsp; {{ schedule.station }}
+                                &nbsp; &nbsp; <span class="network">{{ schedule.station }}</span>
                             {% endif %}
                         </div>
                     {%endif %}                  
