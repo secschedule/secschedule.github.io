@@ -6,6 +6,10 @@ description: >
 baseurl: ""
 url: "http://www.secschedule.com"
 
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname: secschedule-com
+
 # Build settings
 markdown: kramdown
 plugins_dir:

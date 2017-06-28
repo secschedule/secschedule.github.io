@@ -8,15 +8,15 @@
       </button>
       {% assign default_paths = site.pages | map: "path" %} {% assign page_paths = site.header_pages |
         default: default_paths %}
-        <a class="navbar-brand" href="{{ " / " | relative_url }}">
+        <a class="navbar-brand" href="{{ "./" | relative_url }}">
         {{ site.title | escape }}
       </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Privacy</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
       </ul>
     </div>
   </div>

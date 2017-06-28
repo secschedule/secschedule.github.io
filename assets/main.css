@@ -24,6 +24,22 @@ a, a:hover, a:active {
     color: #1abc9c !important;
 }
 
+.site-footer {
+    text-align: center;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+.site-footer .disclaimer {
+    font-size: 12pt;
+    font-style: italic;
+    margin-top: 10px;
+}
+
 .bg {
     margin: 0 auto;
     max-width:100%;
@@ -76,8 +92,66 @@ h1, h2, h3, h4, h5 {
     padding: 20px;
 }
 
+.schedule-main h2, h3 {
+    color: #A9A9A9;
+}
+
+.schedule-main .date {
+    font-weight: bold;
+}
+
+.schedule-main .date, .time {
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.schedule-main img {
+    margin-top: 20px;
+}
+
 .margin-top-20 {
     margin-top: 20px;
+}
+
+#teams {
+    font-size: 14px;
+}
+
+.winloss {
+    margin-top: 10px;
+    font-size: 12pt;
+}
+
+@media screen and (max-width: 1000px) { 
+h1 {
+      font-size: 18pt;
+  }
+
+  h2 {
+      font-size: 16pt;
+  }
+
+  .hide-tablet {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+    .schedule-main {
+    text-align: center;
+   }
+
+   .schedule-main .text-right {
+       text-align: center;
+   }
+
+   .navbar-brand {
+    font-size: 20pt;
+   }
 }
 
 @media screen and (max-width: 600px) {
@@ -89,4 +163,25 @@ h1, h2, h3, h4, h5 {
     width: 28%;
     display: none;
   }
+
+  h1 {
+      font-size: 16pt;
+  }
+
+  h2 {
+      font-size: 14pt;
+  }
+
+  .navbar-brand {
+    font-size: 18pt;
+    text-align: center;
+   }
+
+   .schedule-main {
+    text-align: center;
+   }
+
+   .schedule-main .text-right {
+       text-align: center;
+   }
 }
