@@ -30,7 +30,7 @@
             {
                 "name": "Missouri",
                 "nickname": "Tigers",
-                "date": "",
+                "date": "09/09/2017",
                 "day": "Saturday",
                 "location": "Columbia, MO",
                 "time": "7:00 pm",
@@ -68,7 +68,7 @@
                 "time": "",
                 "station": "",
                 "inConference": 0,
-                "helmetUrl": "/assets/helmets/la-tech.png",
+                "helmetUrl": "/assets/helmets/louisiana-tech.png",
                 "lastMeeting": "09/16/1995",
                 "lastMeetingResult": "68-21",
                 "lastMeetingWinLoss": "won",

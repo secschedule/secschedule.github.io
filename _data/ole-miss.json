@@ -20,7 +20,7 @@
                 "time": "7:30 pm",
                 "station": "ESPNU",
                 "inConference": 0,
-                "helmetUrl": "/assets/helmets/south-alabama.png",
+                "helmetUrl": "/assets/helmets/white.png",
                 "lastMeeting": "First Meeting",
                 "lastMeetingResult": "",
                 "lastMeetingWinLoss": "",
@@ -28,7 +28,7 @@
                 "historyUrl": ""
             },
             {
-                "name": "UT Martin",
+                "name": "Tennessee-Martin",
                 "nickname": "Skyhawks",
                 "date": "09/09/2017",
                 "day": "Saturday",
@@ -36,7 +36,7 @@
                 "time": "",
                 "station": "",
                 "inConference": 0,
-                "helmetUrl": "/assets/helmets/ut-martin.png",
+                "helmetUrl": "/assets/helmets/tennessee-martin.png",
                 "lastMeeting": "",
                 "lastMeetingResult": "",
                 "lastMeetingWinLoss": "",

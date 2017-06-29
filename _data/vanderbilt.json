@@ -12,7 +12,7 @@
     "schedule": {
         "opponent": [
             {
-                "name": "Middle Tennessee State",
+                "name": "Middle Tenn State",
                 "nickname": "Blue Raiders",
                 "date": "09/02/2017",
                 "day": "Saturday",
@@ -20,7 +20,7 @@
                 "time": "8:00 pm",
                 "station": "CSN",
                 "inConference": 0,
-                "helmetUrl": "/assets/helmets/middle-tennessee-state.png",
+                "helmetUrl": "/assets/helmets/silver.png",
                 "lastMeeting": "11/10/2016",
                 "lastMeetingResult": "47–24",
                 "lastMeetingWinLoss": "won",

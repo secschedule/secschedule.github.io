@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: nav_page
 title: About
 permalink: /about/
 ---

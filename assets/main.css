@@ -1,5 +1,7 @@
-body {
+html, body {
     font-size: 18pt;
+    height: 100%;
+    margin: 0;
 }
 
 img { 
@@ -10,6 +12,10 @@ a, a:hover, a:active {
     text-decoration: none;
 }
 
+.page-content {
+    min-height: calc(100vh - 220px);
+}
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -17,27 +23,27 @@ a, a:hover, a:active {
     border-radius: 0;
     margin-bottom: 0;
     font-size: 18px;
-    letter-spacing: 5px;
 }
 
 .navbar-nav li a:hover {
     color: #1abc9c !important;
 }
 
+.nav_page {
+    margin-top: 20px;
+}
+
 .site-footer {
     text-align: center;
-    position:fixed;
-    left:0px;
-    bottom:0px;
     width:100%;
     background-color: #fff;
-    padding-top: 20px;
+    height: 150px;
+    padding-top: 10px;
 }
 
 .site-footer .disclaimer {
-    font-size: 12pt;
+    font-size: 10pt;
     font-style: italic;
-    margin-top: 10px;
 }
 
 .bg {
@@ -53,7 +59,7 @@ a, a:hover, a:active {
 }
 
 .well {
-    background: rgba(22, 105, 173, 0.2);
+    background: rgba(22, 105, 173, 0.5);
     padding: 7px;
     color: #fff;
     text-decoration: none;
@@ -86,7 +92,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .schedule-aside {
-    font-size: 14pt !important;
+    font-size: 14pt;
     background-image: url("/assets/back2.png");
     border-radius: 25px;
     width: 80%;
@@ -135,7 +141,7 @@ h1, h2, h3, h4, h5 {
 
 .winloss {
     margin-top: 10px;
-    font-size: 12pt;
+    font-size: 10pt;
 }
 
 @media screen and (max-width: 1000px) { 
@@ -165,7 +171,14 @@ h1 {
    }
 
    .navbar-brand {
-    font-size: 20pt;
+    font-size: 18pt;
+   }
+
+    .schedule-aside {
+       font-size: 12pt;
+       float: left;
+       right: 0;
+       width: 100%;
    }
 }
 
@@ -188,7 +201,7 @@ h1 {
   }
 
   .navbar-brand {
-    font-size: 18pt;
+    font-size: 12pt;
     text-align: center;
    }
 
@@ -198,5 +211,13 @@ h1 {
 
    .schedule-main .text-right {
        text-align: center;
+   }
+
+   .home img {
+       display: none;
+   }
+
+   .site-footer .disclaimer {
+       font-size: 8pt;
    }
 }
