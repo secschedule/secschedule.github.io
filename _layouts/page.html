@@ -3,32 +3,49 @@ layout: default
 ---
 <article class="post">
   <div class="container-fluid">
-    <div class="col-md-3"></div>
-    <div class="col-md-6">
-      <header class="post-header text-center">
-        <h1 class="post-title">{{ site.year | escape }} {{ page.title | escape }}</h1>
-        <h2>Football Schedule</h2>
-      </header>
+    <div class="row small-device-ad">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- sec-mobile-header -->
+        <ins class="adsbygoogle"
+            style="display:inline-block;width:320px;height:100px"
+            data-ad-client="ca-pub-9883915686867544"
+            data-ad-slot="1885083821"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+      <div class="col-md-3"></div>
     </div>
-    <div class="col-md-3 margin-top-20">
-      <div class="form-group">
-        <select id="teams" class="form-control" onchange="Page.teamSelect()">
-          <option value="#">View team...</option>
-          <option value="alabama-crimson-tide">Alabama Crimson Tide</option>
-          <option value="arkansas-razorbacks">Arkansas Razorbacks</option>
-          <option value="auburn-tigers">Auburn Tigers</option>
-          <option value="florida-gators">Florida Gators</option>
-          <option value="georgia-bulldogs">Georgia Bulldogs</option>
-          <option value="kentucky-wildcats">Kentucky Wildcats</option>
-          <option value="lsu-tigers">LSU Tigers</option>
-          <option value="mississippi-state-bulldogs">Mississippi State Bulldogs</option>
-          <option value="missouri-tigers">Missouri Tigers</option>
-          <option value="ole-miss-rebels">Ole Miss Rebels</option>
-          <option value="south-carolina-gamecocks">South Carolina Gamecocks</option>
-          <option value="tennessee-volunteers">Tennessee Volunteers</option>
-          <option value="texas-a-and-m-aggies">Texas A&M Aggies</option>
-          <option value="vanderbilt-commodores">Vanderbilt Commodores</option>
-      </select>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <header class="post-header text-center">
+          <h1 class="post-title">{{ site.year | escape }} {{ page.title | escape }}</h1>
+          <h2>Football Schedule</h2>
+        </header>
+      </div>
+      <div class="col-md-3 margin-top-20">
+        <div class="form-group">
+          <select id="teams" class="form-control" onchange="Page.teamSelect()">
+            <option value="#">View team...</option>
+            <option value="alabama-crimson-tide">Alabama Crimson Tide</option>
+            <option value="arkansas-razorbacks">Arkansas Razorbacks</option>
+            <option value="auburn-tigers">Auburn Tigers</option>
+            <option value="florida-gators">Florida Gators</option>
+            <option value="georgia-bulldogs">Georgia Bulldogs</option>
+            <option value="kentucky-wildcats">Kentucky Wildcats</option>
+            <option value="lsu-tigers">LSU Tigers</option>
+            <option value="mississippi-state-bulldogs">Mississippi State Bulldogs</option>
+            <option value="missouri-tigers">Missouri Tigers</option>
+            <option value="ole-miss-rebels">Ole Miss Rebels</option>
+            <option value="south-carolina-gamecocks">South Carolina Gamecocks</option>
+            <option value="tennessee-volunteers">Tennessee Volunteers</option>
+            <option value="texas-a-and-m-aggies">Texas A&M Aggies</option>
+            <option value="vanderbilt-commodores">Vanderbilt Commodores</option>
+        </select>
+        </div>
       </div>
     </div>
   </div>

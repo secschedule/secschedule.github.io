@@ -16,6 +16,10 @@ a, a:hover, a:active {
     min-height: calc(100vh - 220px);
 }
 
+.small-device-ad {
+    display: none;
+}
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -224,11 +228,8 @@ h1 {
     font-size: 18pt;
    }
 
-    .schedule-aside {
-       font-size: 12pt;
-       float: left;
-       right: 0;
-       width: 100%;
+   .small-device-ad {
+       display: block;
    }
 }
 
@@ -269,5 +270,9 @@ h1 {
 
    .site-footer .disclaimer {
        font-size: 8pt;
+   }
+
+   .small-device-ad {
+       display: block;
    }
 }

@@ -10,8 +10,13 @@ url: "http://www.secschedule.com"
 # (leave blank to disable Disqus)
 disqus_shortname: secschedule-com
 
+# Google
+google_analytics: UA-101913363-1
+
 paginate: 5
-gems: [jekyll-paginate]
+gems: 
+ - jekyll-paginate
+ - jekyll-sitemap
 
 # Build settings
 markdown: kramdown
