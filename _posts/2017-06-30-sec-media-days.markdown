@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 SEC meda days starts on July 10th and will take place in Hoover, Alabama.
 
 Here is the list of scheduled speakers:
-
+<!--more-->
 Monday July 10th:
 Bret Bielema - Head Coach Arkansas
 Ed Orgeron - Head Coach LSU
