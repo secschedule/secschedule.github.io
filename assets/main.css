@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .schedule-main h2, h3 {
-    color: #A9A9A9;
+    color: #000;
 }
 
 .schedule-main h2 {
@@ -114,18 +114,26 @@ h1, h2, h3, h4, h5 {
     font-size: 16pt;
 }
 
-.schedule-main .date {
+.schedule-main .location {
     font-weight: bold;
 }
 
-.schedule-main .date, .time {
+.schedule-main .location, .time {
     font-size: 12pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
+    font-weight: bold;
+    color: #A9A9A9;
 }
 
 .schedule-main img {
     margin-top: 20px;
+}
+
+.open {
+    color: #A9A9A9;
+    font-size: 10pt;
+    font-style: italic;
 }
 
 .network {

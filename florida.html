@@ -9,8 +9,15 @@ keywords: florida, gators
 
 <div class="container-fluid">
     <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-9">
+            <div class="open">Open Date <span class="dateformat">{{ site.data.florida.schedule.openDate | escape }}</span></div> 
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <div class="row">
         {% include google-side-ad.html %}
-        <div class="col-md-6 schedule-main">            
+        <div class="col-md-8 schedule-main">            
             {% for schedule in site.data.florida.schedule.opponent %}
             <div class="row">
                 <div class="col-md-5">
@@ -19,21 +26,24 @@ keywords: florida, gators
                     {% else %}
                         <h2>at {{ schedule.name }}</h2>
                     {%endif %}     
-                    <div class="date dateformat">{{ schedule.date }}</div>  
+                     {% if schedule.location == "*" %}
+                        <div class="location">{{ site.data.florida.location }}</div>
+                    {% else %}
+                        <div class="location">{{ schedule.location }}</div>
+                    {%endif %} 
                 </div>
                 <div class="col-md-2 text-center">
                     <img src="{{ schedule.helmetUrl }}" alt="">  
                 </div>
                 <div class="col-md-5 text-right">
+                    <h2 class="date dateformat">{{ schedule.date }}</h2> 
                     {% if schedule.location == "*" %}
-                        <h2>{{ site.data.florida.location }}</h2>
                         <div class="time">{{ schedule.time | default: "TBA" }}
                             {% if schedule.station != "" %}
                                 &nbsp; &nbsp; <span class="network">{{ schedule.station }}</span>
                             {% endif %}
                             </div>
                     {% else %}
-                        <h2>{{ schedule.location }}</h2>
                         <div class="time">{{ schedule.time | default: "TBA" }}
                             {% if schedule.station != "" %}
                                 &nbsp; &nbsp; <span class="network">{{ schedule.station }}</span>
@@ -55,20 +65,7 @@ keywords: florida, gators
             <hr />
             {% endfor %}
         </div>
-        <div class="col-md-3">
-            <aside class="well schedule-aside hide-mobile">
-               <h3 class="text-center">{{ site.data.florida.name }}</h3>
-               <div class="text-center"><img src="{{ site.data.florida.helmetUrl }}" alt="helmet"></div>
-               <div class="margin-top-20">
-                <p>The {{ site.data.florida.name }} is located in {{ site.data.florida.location }}.</p>
-                <p>The {{ site.data.florida.nickname }} plays their home games 
-                at {{ site.data.florida.stadiumName }}.</p>
-                <p>The head coach is {{ site.data.florida.headCoach }}.</p>
-                <p>If you ever attend a game at {{ site.data.florida.stadiumName }} you may catch a glimpse of {{ site.data.florida.mascot }}, the team's mascot.</p>
-                <h3 class="text-center"><i>{{ site.data.florida.slogan }}</i></h3>
-               </div>
-            </aside>
-        </div>
+        <div class="col-md-1"></div>
     </div>
     <div class="row">
         <div class="col-md-3"></div>

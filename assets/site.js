@@ -24,8 +24,7 @@ var Page = {
         var month = months[dt.getMonth()];
 
         var day = dt.getDate();
-        var year = dt.getFullYear();
 
-        return nameOfDay + ' ' + month + ' ' + day + ', ' + year;
+        return nameOfDay + ' ' + month + ' ' + day;
     }
 }

@@ -9,8 +9,15 @@ keywords: missouri, tigers
 
 <div class="container-fluid">
     <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-9">
+            <div class="open">Open Date <span class="dateformat">{{ site.data.missouri.schedule.openDate | escape }}</span></div> 
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <div class="row">
         {% include google-side-ad.html %}
-        <div class="col-md-6 schedule-main">            
+        <div class="col-md-8 schedule-main">            
             {% for schedule in site.data.missouri.schedule.opponent %}
             <div class="row">
                 <div class="col-md-5">
@@ -19,21 +26,24 @@ keywords: missouri, tigers
                     {% else %}
                         <h2>at {{ schedule.name }}</h2>
                     {%endif %}     
-                    <div class="date dateformat">{{ schedule.date }}</div>  
+                     {% if schedule.location == "*" %}
+                        <div class="location">{{ site.data.missouri.location }}</div>
+                    {% else %}
+                        <div class="location">{{ schedule.location }}</div>
+                    {%endif %} 
                 </div>
                 <div class="col-md-2 text-center">
                     <img src="{{ schedule.helmetUrl }}" alt="">  
                 </div>
                 <div class="col-md-5 text-right">
+                    <h2 class="date dateformat">{{ schedule.date }}</h2> 
                     {% if schedule.location == "*" %}
-                        <h2>{{ site.data.missouri.location }}</h2>
                         <div class="time">{{ schedule.time | default: "TBA" }}
                             {% if schedule.station != "" %}
                                 &nbsp; &nbsp; <span class="network">{{ schedule.station }}</span>
                             {% endif %}
                             </div>
                     {% else %}
-                        <h2>{{ schedule.location }}</h2>
                         <div class="time">{{ schedule.time | default: "TBA" }}
                             {% if schedule.station != "" %}
                                 &nbsp; &nbsp; <span class="network">{{ schedule.station }}</span>
@@ -55,20 +65,7 @@ keywords: missouri, tigers
             <hr />
             {% endfor %}
         </div>
-        <div class="col-md-3">
-            <aside class="well schedule-aside hide-mobile">
-               <h3 class="text-center">{{ site.data.missouri.name }}</h3>
-               <div class="text-center"><img src="{{ site.data.missouri.helmetUrl }}" alt="helmet"></div>
-               <div class="margin-top-20">
-                <p>The {{ site.data.missouri.name }} is located in {{ site.data.missouri.location }}.</p>
-                <p>The {{ site.data.missouri.nickname }} plays their home games 
-                at {{ site.data.missouri.stadiumName }}.</p>
-                <p>The head coach is {{ site.data.missouri.headCoach }}.</p>
-                <p>If you ever attend a game at {{ site.data.missouri.stadiumName }} you may catch a glimpse of {{ site.data.missouri.mascot }}, the team's mascot.</p>
-                <h3 class="text-center"><i>{{ site.data.missouri.slogan }}</i></h3>
-               </div>
-            </aside>
-        </div>
+        <div class="col-md-1"></div>
     </div>
     <div class="row">
         <div class="col-md-3"></div>
@@ -92,4 +89,3 @@ keywords: missouri, tigers
         <div class="col-md-3"></div>
     </div>
 </div>
-
