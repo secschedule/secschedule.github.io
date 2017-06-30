@@ -77,8 +77,16 @@ a, a:hover, a:active {
     text-decoration: none;
 }
 
-.well h4 {
+.team-name-home {
     font-size: 14pt;
+    font-weight: bold;
+    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+}
+
+.team-nickname-home {
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
