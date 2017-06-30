@@ -20,7 +20,7 @@
                 "time": "8:00 pm",
                 "station": "ABC",
                 "inConference": 0,
-                "helmetUrl": "./assets/helmets/fsu.png",
+                "helmetUrl": "/assets/helmets/fsu.png",
                 "lastMeeting": "09/29/2007",
                 "lastMeetingResult": "21-14",
                 "lastMeetingWinLoss": "lost",
