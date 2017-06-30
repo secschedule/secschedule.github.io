@@ -1,5 +1,6 @@
 ---
 layout: nav_page
-title: Privacy
+title: Privacy Statement
 permalink: /privacy/
+keywords: privacy
 ---

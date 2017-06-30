@@ -83,6 +83,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .navbar-brand {
+    font-family: 'Anton', sans-serif;
     font-size: 24pt;
 }
 
@@ -135,6 +136,10 @@ h1, h2, h3, h4, h5 {
     margin-top: 20px;
 }
 
+.margin-bottom-20 { 
+    margin-bottom: 20px;
+}
+
 #teams {
     font-size: 14px;
 }
@@ -143,6 +148,35 @@ h1, h2, h3, h4, h5 {
     margin-top: 10px;
     font-size: 10pt;
 }
+
+.post-list {
+     list-style-type: none;
+}
+
+.post-meta {
+    font-weight: 300;
+    color: #7a7a7a;
+    font-style: italic;
+    font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
+}
+
+.post-link {
+    font-weight: 600;
+    font-size: 1.998rem;
+    font-style: normal;
+    color: #000;
+    font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.pagination {
+    width: 100%;
+    text-align: center;
+    opacity: 0.5;
+    font-size: 1rem;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 300;
+}
+
 
 @media screen and (max-width: 1000px) { 
 h1 {
