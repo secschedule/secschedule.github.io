@@ -200,6 +200,10 @@ h1, h2, h3, h4, h5 {
     font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
 }
 
+.post-title {
+    text-align: center;
+}
+
 .pagination {
     width: 100%;
     text-align: center;

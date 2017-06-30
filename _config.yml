@@ -14,6 +14,9 @@ disqus_shortname: secschedule-com
 google_analytics: UA-101913363-1
 
 paginate: 5
+
+permalink: /:year/:month/:day/:title/
+
 gems: 
  - jekyll-paginate
  - jekyll-sitemap
