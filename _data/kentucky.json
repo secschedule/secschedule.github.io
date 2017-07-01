@@ -9,6 +9,7 @@
     "headCoach": "Mark Stoops",
     "slogan": "Go Big Blue!",
     "timezone": "Eastern",
+    "division": "East",
     "schedule": {
         "opponent": [
             {

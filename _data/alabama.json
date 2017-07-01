@@ -9,6 +9,7 @@
     "headCoach": "Nick Saban",
     "timezone": "Central",
     "slogan": "Roll Tide!",
+    "division": "West",
     "schedule": {
         "opponent": [
             {

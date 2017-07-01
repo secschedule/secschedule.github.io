@@ -9,6 +9,7 @@
     "headCoach": "Butch Jones",
     "slogan": "Rocky Top!",
     "timezone": "Eastern",
+    "division": "East",
     "schedule": {
         "opponent": [
             {
