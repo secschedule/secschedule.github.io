@@ -67,6 +67,7 @@ a, a:hover, a:active {
     padding: 7px;
     color: #fff;
     text-decoration: none;
+    display: none;
 }
 
 .well a {
