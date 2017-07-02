@@ -8,7 +8,14 @@ layout: default
       <div class="col-md-6">
         <header class="post-header text-center">
           <h1 class="post-title">{{ site.year | escape }} {{ page.title | escape }} Football Schedule</h1> 
-          <h4 class="division">SEC {{ page.division | escape }} Division</h4>
+          <h4 class="division">SEC {{ page.division | escape }} Division 
+            <span class="socialmediaicons">
+              <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url}}{{ page.url}}src=sdkpreparse" target="_blank" class="fa fa-facebook fb-xfbml-parse-ignore" data-toggle="tooltip" title="Share on Facebook"></a> 
+              <a href="http://twitter.com/share?text=View the 2017 {{ page.title }} Football Schedule&url={{ site.url}}{{ page.url}}" target="_blank" class="fa fa-twitter" data-toggle="tooltip" title="Share on Twitter"></a> 
+              <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false" class="fa fa-reddit" data-toggle="tooltip" title="Share on Reddit"></a>
+              <a href="https://plus.google.com/share?url={{ site.url}}{{ page.url}}" target="_blank" class="fa fa-google" data-toggle="tooltip" title="Share on Google"></a>
+            </span>
+          </h4>
         </header>
       </div>
       <div class="col-md-3 margin-top-20">
