@@ -4,7 +4,7 @@ year: 2017
 description: >
   The best source for the SEC Football schedule on the web. 
 baseurl: ""
-url: "http://www.secschedule.com"
+url: "https://www.secschedule.com"
 
 # Disqus post comments
 # (leave blank to disable Disqus)
