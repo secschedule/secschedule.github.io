@@ -6,7 +6,7 @@ division: East
 permalink: georgia-bulldogs 
 comments: true
 keywords: georgia, bulldogs
-description: The Georgia Bulldogs Football Schedule
+description: The complete 2017 Georgia Bulldogs Football Schedule
 ---
 
 <div class="container-fluid">
@@ -26,9 +26,9 @@ description: The Georgia Bulldogs Football Schedule
                     <div class="row">
                         <div class="col-md-5">
                             {% if schedule.location == "*" %}
-                            <h2>vs {{ schedule.name }}</h2>
+                            <h3>vs {{ schedule.name }}</h3>
                             {% else %}
-                            <h2>at {{ schedule.name }}</h2>
+                            <h3>at {{ schedule.name }}</h3>
                             {%endif %} {% if schedule.location == "*" %}
                             <div class="location">{{ site.data.georgia.location }}</div>
                             {% else %}
@@ -39,7 +39,7 @@ description: The Georgia Bulldogs Football Schedule
                             <img src="{{ schedule.helmetUrl }}" alt="{{ schedule.name }}">
                         </div>
                         <div class="col-md-5 text-right">
-                            <h2 class="date dateformat">{{ schedule.date }}</h2>
+                            <h3 class="date dateformat">{{ schedule.date }}</h3>
                             {% if schedule.location == "*" %}
                             <div class="time">{{ schedule.time | default: "TBA" }} {% if schedule.station != "" %} &nbsp; &nbsp; <span class="network">{{ schedule.station }}</span>                                {% endif %}
                             </div>
