@@ -1,11 +1,16 @@
-window.onload = function () {
-    var dates = document.getElementsByClassName("dateformat");
-    for (i = 0; i < dates.length; i++) {
-        dtString = dates[i].innerHTML;
+document.onreadystatechange = function(e)
+{
+    if (document.readyState === 'complete')
+    {
+        var dates = document.getElementsByClassName("dateformat");
+        for (i = 0; i < dates.length; i++) {
+            dtString = dates[i].innerHTML;
 
-        dates[i].innerHTML = Page.getFormattedDate(dtString);
+            dates[i].innerHTML = Page.getFormattedDate(dtString);
+            dates[i].style.visibility = "visible";
+        }
     }
-}
+};
 
 var Page = {
     teamSelect: function () {
