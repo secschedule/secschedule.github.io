@@ -10,6 +10,11 @@ document.onreadystatechange = function(e)
             dates[i].style.visibility = "visible";
         }
     }
+
+    var ads = document.getElementsByClassName("ad");
+    for (i = 0; i < ads.length; i++) {
+        ads[i].style.display = "unset";
+    }
 };
 
 var Page = {
