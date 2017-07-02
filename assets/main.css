@@ -202,7 +202,6 @@ h1, h2, h3, h4, h5 {
 
 .post-title {
     text-align: center;
-    font-size: 18pt;
 }
 
 .pagination {
@@ -225,6 +224,16 @@ h1, h2, h3, h4, h5 {
     text-decoration: none;
     margin: 5px 2px;
     width: 20px;
+    color: #fff;
+}
+
+.socialmediaicons .large {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    width: 50px;
     color: #fff;
 }
 
@@ -333,5 +342,15 @@ h1 {
 
    .right-border {
        border-right: 0;
+    }
+
+    .socialmediaicons .large {
+        padding: 5px;
+        font-size: 12px;
+        text-align: center;
+        text-decoration: none;
+        margin: 10px 2px;
+        width: 20px;
+        color: #fff;
     }
 }

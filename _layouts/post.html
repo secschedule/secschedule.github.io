@@ -7,7 +7,9 @@ layout: default
     <div class="row">
       <div class="col-lg-12">
         <header class="post-header">
-            <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+            <h1 class="post-title" itemprop="name headline">
+              {{ page.title | escape }}
+              </h1>
             <p class="post-meta">
               <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
@@ -20,6 +22,13 @@ layout: default
 
           <div class="post-content" itemprop="articleBody">
             {{ content }}
+
+              <div class="socialmediaicons">
+                <a onclick="javascript:window.open(this.href, '', 'menubar=no, toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url}}{{ page.url}}src=sdkpreparse" target="_blank" class="fa fa-facebook large fb-xfbml-parse-ignore" data-toggle="tooltip" title="Share on Facebook"></a> 
+                <a onclick="javascript:window.open(this.href, '', 'menubar=no, toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" href="http://twitter.com/share?text={{ page.excerpt | truncate: 60 | remove: '<p>' | remove: '</p>' }}&url={{ site.url}}{{ page.url}}" target="_blank" class="fa fa-twitter large" data-toggle="tooltip" title="Share on Twitter"></a> 
+                <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false" class="fa fa-reddit large" data-toggle="tooltip" title="Share on Reddit"></a>
+                <a onclick="javascript:window.open(this.href, '', 'menubar=no, toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"href="https://plus.google.com/share?url={{ site.url}}{{ page.url}}" target="_blank" class="fa fa-google large" data-toggle="tooltip" title="Share on Google"></a>
+              </div>
 
             <a href="/news/notes/">Back to news</a>
           </div>
