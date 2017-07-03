@@ -366,4 +366,9 @@ h1 {
         width: 20px;
         color: #fff;
     }
+
+    table {
+        font-size: 10pt;
+        margin-right: 5px;
+    }
 }

@@ -15,7 +15,7 @@ permalink: /standings/
 |[South Carolina Gamecocks]({{ site.baseurl }}/south-carolina-gamecocks)   |0-0|0-0|0-0|
 |[Tennessee Volunteeers]({{ site.baseurl }}/tennessee-volunteers)          |0-0|0-0|0-0|
 |[Vanderbilt Commodores]({{ site.baseurl }}/vanderbilt-commodores)         |0-0|0-0|0-0|
-{:.table .table-striped .table-hover}
+{:.table .table-striped .table-hover.table-responsive}
 
 <br />
 
@@ -30,4 +30,4 @@ permalink: /standings/
 |[Mississippi State Bulldogs]({{ site.baseurl }}/mississippi-state-bulldogs)|0-0|0-0|0-0|
 |[Ole Miss Rebels]({{ site.baseurl }}/ole-miss-rebels)                      |0-0|0-0|0-0|
 |[Texas A&M Aggies]({{ site.baseurl }}/texas-a-and-m-aggies)                |0-0|0-0|0-0|
-{:.table .table-striped .table-hover}
+{:.table .table-striped .table-hover .table-responsive}
