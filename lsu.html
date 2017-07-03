@@ -39,7 +39,7 @@ description: The complete 2017 LSU Tigers Football Schedule
                             <img src="{{ schedule.helmetUrl }}" alt="{{ schedule.name }}">
                         </div>
                         <div class="col-md-5 text-right">
-                            <div class="header3 date dateformat">{{ schedule.date }}</div>
+                            <div class="header3 date dateformat">{{ schedule.day }}, {{ schedule.date }}</div>
                             {% if schedule.location == "*" %}
                             <div class="time">{{ schedule.time | default: "TBA" }} {% if schedule.station != "" %} &nbsp; &nbsp; <span class="network">{{ schedule.station }}</span>                                {% endif %}
                             </div>
