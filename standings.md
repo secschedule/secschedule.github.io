@@ -1,6 +1,6 @@
 ---
 layout: nav_page
-title: SEC Standings
+title: SEC Football Standings
 permalink: /standings/
 ---
 
