@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="msvalidate.01" content="1FA4E8D9E863ACB48FD928DE74E8560A" />
   
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <title>{% if page.title and page.division %}{{ page.title | escape }} Football Schedule {{ site.year }}{% elsif page.title %} {{ page.title | escape }} {% else %}{{ site.title | escape }} {{ site.year }}{% endif %}</title>
   
   <link rel="stylesheet" href="{{ "./assets/node_modules/bootstrap/dist/css/bootstrap.min.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "./assets/node_modules/font-awesome/css/font-awesome.min.css" | relative_url }}">
