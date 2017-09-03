@@ -50,7 +50,7 @@ description: The 2017 Missouri Tigers College Football Schedule
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12 winloss">
+                        <div class="col-md-8 winloss">
                             {%if schedule.lastMeeting != "" and schedule.lastMeeting != "First Meeting" %} The last time these two teams played was
                             <span
                                 class="dateformat">{{ schedule.lastMeeting }}</span>. {{ page.shortTitle }} {{ schedule.lastMeetingWinLoss }} the
@@ -58,6 +58,13 @@ description: The 2017 Missouri Tigers College Football Schedule
                                 %} This is the first meeting between {{ page.shortTitle }} and the {{ schedule.nickname }}.
                                 {% endif %}
                         </div>
+                        <div class="col-md-4 text-right small">
+                                <b>
+                                {% if schedule.result != "" %}
+                                    Result: {{ schedule.result }}
+                                {% endif %}
+                                </b>
+                            </div>
                     </div>
                 </div>
             </div>
