@@ -24,10 +24,10 @@ permalink: /standings/
 | Team | In Conference | In Division | Overall |
 |---|---:|---:|---:|
 |[Alabama Crimson Tide]({{ site.baseurl }}/alabama-crimson-tide)            |5-0|3-0|8-0|
-|[Arkansas Razorbacks]({{ site.baseurl }}/arkansas-razorbacks)              |0-4|0-3|2-5|
 |[Auburn Tigers]({{ site.baseurl }}/auburn-tigers)                          |4-1|3-1|6-2|
 |[LSU Tigers]({{ site.baseurl }}/lsu-tigers)                                |3-1|2-1|6-2|
+|[Texas A&M Aggies]({{ site.baseurl }}/texas-a-and-m-aggies)                |3-1|1-1|5-2|
 |[Mississippi State Bulldogs]({{ site.baseurl }}/mississippi-state-bulldogs)|2-2|1-1|5-2|
 |[Ole Miss Rebels]({{ site.baseurl }}/ole-miss-rebels)                      |1-3|0-3|3-4|
-|[Texas A&M Aggies]({{ site.baseurl }}/texas-a-and-m-aggies)                |3-1|1-1|5-2|
+|[Arkansas Razorbacks]({{ site.baseurl }}/arkansas-razorbacks)              |0-4|0-3|2-5|
 {:.table .table-striped .table-hover .table-responsive}
