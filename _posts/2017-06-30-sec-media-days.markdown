@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SEC Media Days"
-date:   2017-06-30 15:55:46 -0400
+date:   2018-06-30 15:55:46 -0400
 categories: sec media coaches
 excerpt_separator: <!--more-->
 ---
