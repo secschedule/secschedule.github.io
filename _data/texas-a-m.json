@@ -4,13 +4,13 @@
     "id": 14,
     "mascot": "Reveille",
     "helmetUrl": "./assets/helmets/texas-a-m.png",
-    "location": " College Station, TX",
+    "location": "College Station, TX",
     "stadiumName": "Kyle Field",
     "headCoach": "Jimbo Fisher",
     "slogan": "Gig 'Em!",
     "timezone": "Texas",
     "division": "East",
-    "season": 2018,
+    "season": 2021,
     "schedule": {
         "opponent": [
             {
