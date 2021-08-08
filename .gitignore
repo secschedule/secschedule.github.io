@@ -1,8 +1,0 @@
-_site
-.sass-cache
-.jekyll-metadata
-.template.json
-assets/node_modules/bootstrap/CHANGELOG.metadata
-assets/node_modules/bootstrap/README.metadata
-assets/node_modules/font-awesome/README.metadata
-assets/node_modules/jquery/CHANGELOG.metadata
