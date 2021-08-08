@@ -1,2 +1,0 @@
-cd "C:\Program Files\IIS Express"
-iisexpress /siteid:99
