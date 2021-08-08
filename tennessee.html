@@ -39,7 +39,7 @@ description: The 2021 Tennessee Volunteers College Football Schedule
                             <img src="{{ schedule.helmetUrl }}" alt="{{ schedule.name }}">
                         </div>
                         <div class="col-md-5 text-right">
-                            <div class="<header3></header3> date dateformat">{{ schedule.day }}, {{ schedule.date }}</div>
+                            <div class="header3 date dateformat">date dateformat">{{ schedule.day }}, {{ schedule.date }}</div>
                             {% if schedule.location == "*" %}
                             <div class="time">{{ schedule.time | default: "TBA" }} {% if schedule.station != "" %} &nbsp; &nbsp; <span class="network">{{ schedule.station }}</span>                                {% endif %}
                             </div>
@@ -80,7 +80,7 @@ description: The 2021 Tennessee Volunteers College Football Schedule
             <script type="text/javascript">
                 var disqus_shortname = '{{ site.disqus_shortname }}';
                 var disqus_identifier = '{{ page.id }}';
-                var disqus_title = {{ page.title | jsonify }};
+                var disqus_title = '{{ page.title | jsonify }}';
 
                 (function () {
                     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
