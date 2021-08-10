@@ -268,7 +268,7 @@ h1, h2, h3, h4, h5 {
     background: #dd4b39;
 }
 
-@media screen and (max-width: 1000px) { 
+@media screen and (max-width: 1500px) { 
 h1 {
       font-size: 18pt;
   }
@@ -311,7 +311,7 @@ h1 {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .hide-mobile {
     visibility: hidden;
     clear: both;
